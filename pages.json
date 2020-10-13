@@ -1,0 +1,20 @@
+{
+	"pages": [
+		{
+			"path":"pages/index/index",
+			"style":{
+				"scrollIndicator": "none",
+				"navigationBarTitleText": "首页",
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"background": "$uni-color-primary",
+					"bounce": "none",
+					"titleNView": {
+						"titleText": "首页",
+						"backgroundColor": "#468dff"
+					}
+				}
+			}
+		}
+	]
+}
