@@ -9,12 +9,82 @@
 				"app-plus": {
 					"background": "$uni-color-primary",
 					"bounce": "none",
-					"titleNView": {
-						"titleText": "首页",
-						"backgroundColor": "#468dff"
-					}
+					"titleNView": false
 				}
 			}
 		}
-	]
+	    ,{
+            "path" : "pages/profile/profile",
+            "style" : {
+				"scrollIndicator": "none",
+				"navigationBarTitleText": "个人中心",
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"background": "$uni-color-primary",
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" : {
+				"scrollIndicator": "none",
+				"navigationBarTitleText": "分类",
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"background": "$uni-color-primary",
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {
+				"scrollIndicator": "none",
+				"navigationBarTitleText": "购物车",
+				"onReachBottomDistance": 50,
+				"app-plus": {
+					"background": "$uni-color-primary",
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+        }
+    ],
+	"tabBar":{
+		"color":"#000000",
+		"selectedColor":"#fa3534",
+		"backgroundColor":"#F8F8F8",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text": "首页",
+				"iconPath":"static/images/tab-home.png",
+				"selectedIconPath":"static/images/tab-home-current.png"
+			},
+			{
+				"pagePath":"pages/category/category",
+				"text": "产品分类",
+				"iconPath":"static/images/tab-cate.png",
+				"selectedIconPath":"static/images/tab-cate-current.png"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"text": "购物车",
+				"iconPath":"static/images/tab-cart.png",
+				"selectedIconPath":"static/images/tab-cart-current.png"
+			},
+			{
+				"pagePath":"pages/profile/profile",
+				"text": "个人中心",
+				"iconPath":"static/images/tab-my.png",
+				"selectedIconPath":"static/images/tab-my-current.png"
+			}
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
 }

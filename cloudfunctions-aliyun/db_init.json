@@ -1,0 +1,84 @@
+// 在本文件中可配置云数据库初始化，数据格式见：https://uniapp.dcloud.io/uniCloud/cf-database?id=db_init
+// 编写完毕后对本文件点右键，可按配置规则创建表和添加数据
+{	"production": {
+		"data": [
+			{
+				"name": "奥特曼1",
+				"desc": "我是宇宙无敌强的奥特曼",
+				"img_url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1906469856,4113625838&fm=26&gp=0.jpg",
+				"price": 10000,
+				"num": 999,
+				"isCheap":true,
+				"cheap_price": 998,
+				"time_limit":true,
+				"hot":false
+			},
+			{
+				"name": "李宁家的耐克",
+				"desc": "其实我是李宁哈哈哈",
+				"img_url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1906469856,4113625838&fm=26&gp=0.jpg",
+				"price": 10000,
+				"num": 999,
+				"isCheap":true,
+				"cheap_price": 998,
+				"time_limit":false,
+				"hot":false
+			},
+			{
+				"name": "阿迪达斯1号",
+				"desc": "addias for life毛子",
+				"img_url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1906469856,4113625838&fm=26&gp=0.jpg",
+				"price": 10000,
+				"num": 999,
+				"isCheap":true,
+				"cheap_price": 998,
+				"time_limit":true,
+				"hot":false
+			},
+			{
+				"name": "匡威1970s",
+				"desc": "匡威赛高便宜实惠",
+				"img_url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1906469856,4113625838&fm=26&gp=0.jpg",
+				"price": 10000,
+				"num": 999,
+				"isCheap":true,
+				"cheap_price": 998,
+				"time_limit":true,
+				"hot":false
+			},
+			{
+				"name": "vans oldSchool",
+				"desc": "黑不拉几 丑不拉几",
+				"img_url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1906469856,4113625838&fm=26&gp=0.jpg",
+				"price": 10000,
+				"num": 999,
+				"isCheap":false,
+				"cheap_price": null,
+				"time_limit":true,
+				"hot":false
+			},
+			{
+				"name": "乔丹",
+				"desc": "中国的AJ国产之光崛起",
+				"img_url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1906469856,4113625838&fm=26&gp=0.jpg",
+				"price": 10000,
+				"num": 999,
+				"isCheap":true,
+				"cheap_price": 998,
+				"time_limit":true,
+				"hot":true
+			},
+			{
+				"name": "新百伦778",
+				"desc": "中国自主潮牌亮瞎你的狗眼",
+				"img_url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1906469856,4113625838&fm=26&gp=0.jpg",
+				"price": 10000,
+				"num": 999,
+				"isCheap":false,
+				"cheap_price": null,
+				"time_limit":false,
+				"hot":false
+			}
+		]
+	}
+}
